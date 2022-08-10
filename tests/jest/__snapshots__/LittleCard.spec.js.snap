@@ -1,0 +1,1267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`changes the opacity of overlay when hovered 1`] = `
+<div
+  id="tt2967006"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "backgroundImage": "url(https://m.media-amazon.com/images/M/MV5BNTAxMDQzNzA3Nl5BMl5BanBnXkFtZTgwNzU4MDk4MTE@._V1_SX300.jpg)",
+      "backgroundPosition": "center",
+      "backgroundRepeat": "no-repeat",
+      "backgroundSize": "180px 240px",
+      "borderRadius": "4px",
+      "maxHeight": "240px",
+      "position": "relative",
+    }
+  }
+>
+  <div
+    id="tt2967006_heart"
+    style={
+      Object {
+        "position": "absolute",
+        "right": "12px",
+        "top": "12px",
+        "visibility": "visible",
+        "zIndex": 1,
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "background": "none",
+          "border": 0,
+          "boxSizing": "border-box",
+          "display": "inline-block",
+          "height": "initial",
+          "margin": 0,
+          "maxWidth": "100%",
+          "opacity": 1,
+          "overflow": "hidden",
+          "padding": 0,
+          "position": "relative",
+          "width": "initial",
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "background": "none",
+            "border": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": "initial",
+            "margin": 0,
+            "maxWidth": "100%",
+            "opacity": 1,
+            "padding": 0,
+            "width": "initial",
+          }
+        }
+      >
+        <img
+          alt=""
+          aria-hidden={true}
+          src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2716%27%20height=%2716%27/%3e"
+          style={
+            Object {
+              "background": "none",
+              "border": 0,
+              "display": "block",
+              "height": "initial",
+              "margin": 0,
+              "maxWidth": "100%",
+              "opacity": 1,
+              "padding": 0,
+              "width": "initial",
+            }
+          }
+        />
+      </span>
+      <img
+        data-nimg="intrinsic"
+        decoding="async"
+        onClick={[Function]}
+        onError={[Function]}
+        onLoad={[Function]}
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "border": "none",
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": 0,
+            "left": 0,
+            "margin": "auto",
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minHeight": "100%",
+            "minWidth": "100%",
+            "objectFit": undefined,
+            "objectPosition": undefined,
+            "padding": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "width": 0,
+          }
+        }
+      />
+      <noscript>
+        <img
+          data-nimg="intrinsic"
+          decoding="async"
+          loading="lazy"
+          onClick={[Function]}
+          src="/assets/layout/Exports/Icons/icon-heart-full.svg"
+          srcSet="/assets/layout/Exports/Icons/icon-heart-full.svg 1x, /assets/layout/Exports/Icons/icon-heart-full.svg 2x"
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": undefined,
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+      </noscript>
+    </span>
+  </div>
+  <div
+    id="tt2967006_overlay"
+    style={
+      Object {
+        "backgroundColor": "#1B2329",
+        "borderRadius": "4px",
+        "height": "100%",
+        "left": 0,
+        "opacity": 0,
+        "overflow": "hidden",
+        "top": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "padding": "12px",
+          "position": "absolute",
+          "right": 0,
+          "width": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "visibility": "hidden",
+          }
+        }
+      >
+        <h3
+          style={
+            Object {
+              "color": "white",
+              "marginBottom": 0,
+            }
+          }
+        >
+          The Trip to Italy
+        </h3>
+        <p
+          style={
+            Object {
+              "color": "white",
+              "marginBottom": 0,
+              "marginTop": "12px",
+            }
+          }
+        >
+          2014
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`changes the opacity of overlay when hovered 2`] = `
+<div
+  id="tt2967006"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "backgroundImage": "url(https://m.media-amazon.com/images/M/MV5BNTAxMDQzNzA3Nl5BMl5BanBnXkFtZTgwNzU4MDk4MTE@._V1_SX300.jpg)",
+      "backgroundPosition": "center",
+      "backgroundRepeat": "no-repeat",
+      "backgroundSize": "180px 240px",
+      "borderRadius": "4px",
+      "maxHeight": "240px",
+      "position": "relative",
+    }
+  }
+>
+  <div
+    id="tt2967006_heart"
+    style={
+      Object {
+        "position": "absolute",
+        "right": "12px",
+        "top": "12px",
+        "visibility": "visible",
+        "zIndex": 1,
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "background": "none",
+          "border": 0,
+          "boxSizing": "border-box",
+          "display": "inline-block",
+          "height": "initial",
+          "margin": 0,
+          "maxWidth": "100%",
+          "opacity": 1,
+          "overflow": "hidden",
+          "padding": 0,
+          "position": "relative",
+          "width": "initial",
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "background": "none",
+            "border": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": "initial",
+            "margin": 0,
+            "maxWidth": "100%",
+            "opacity": 1,
+            "padding": 0,
+            "width": "initial",
+          }
+        }
+      >
+        <img
+          alt=""
+          aria-hidden={true}
+          src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2716%27%20height=%2716%27/%3e"
+          style={
+            Object {
+              "background": "none",
+              "border": 0,
+              "display": "block",
+              "height": "initial",
+              "margin": 0,
+              "maxWidth": "100%",
+              "opacity": 1,
+              "padding": 0,
+              "width": "initial",
+            }
+          }
+        />
+      </span>
+      <img
+        data-nimg="intrinsic"
+        decoding="async"
+        onClick={[Function]}
+        onError={[Function]}
+        onLoad={[Function]}
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "border": "none",
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": 0,
+            "left": 0,
+            "margin": "auto",
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minHeight": "100%",
+            "minWidth": "100%",
+            "objectFit": undefined,
+            "objectPosition": undefined,
+            "padding": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "width": 0,
+          }
+        }
+      />
+      <noscript>
+        <img
+          data-nimg="intrinsic"
+          decoding="async"
+          loading="lazy"
+          onClick={[Function]}
+          src="/assets/layout/Exports/Icons/icon-heart-full.svg"
+          srcSet="/assets/layout/Exports/Icons/icon-heart-full.svg 1x, /assets/layout/Exports/Icons/icon-heart-full.svg 2x"
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": undefined,
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+      </noscript>
+    </span>
+  </div>
+  <div
+    id="tt2967006_overlay"
+    style={
+      Object {
+        "backgroundColor": "#1B2329",
+        "borderRadius": "4px",
+        "height": "100%",
+        "left": 0,
+        "opacity": 0.9,
+        "overflow": "hidden",
+        "top": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "padding": "12px",
+          "position": "absolute",
+          "right": 0,
+          "width": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "visibility": "visible",
+          }
+        }
+      >
+        <h3
+          style={
+            Object {
+              "color": "white",
+              "marginBottom": 0,
+            }
+          }
+        >
+          The Trip to Italy
+        </h3>
+        <p
+          style={
+            Object {
+              "color": "white",
+              "marginBottom": 0,
+              "marginTop": "12px",
+            }
+          }
+        >
+          2014
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`changes the opacity of overlay when hovered 3`] = `
+<div
+  id="tt2967006"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "backgroundImage": "url(https://m.media-amazon.com/images/M/MV5BNTAxMDQzNzA3Nl5BMl5BanBnXkFtZTgwNzU4MDk4MTE@._V1_SX300.jpg)",
+      "backgroundPosition": "center",
+      "backgroundRepeat": "no-repeat",
+      "backgroundSize": "180px 240px",
+      "borderRadius": "4px",
+      "maxHeight": "240px",
+      "position": "relative",
+    }
+  }
+>
+  <div
+    id="tt2967006_heart"
+    style={
+      Object {
+        "position": "absolute",
+        "right": "12px",
+        "top": "12px",
+        "visibility": "visible",
+        "zIndex": 1,
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "background": "none",
+          "border": 0,
+          "boxSizing": "border-box",
+          "display": "inline-block",
+          "height": "initial",
+          "margin": 0,
+          "maxWidth": "100%",
+          "opacity": 1,
+          "overflow": "hidden",
+          "padding": 0,
+          "position": "relative",
+          "width": "initial",
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "background": "none",
+            "border": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": "initial",
+            "margin": 0,
+            "maxWidth": "100%",
+            "opacity": 1,
+            "padding": 0,
+            "width": "initial",
+          }
+        }
+      >
+        <img
+          alt=""
+          aria-hidden={true}
+          src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2716%27%20height=%2716%27/%3e"
+          style={
+            Object {
+              "background": "none",
+              "border": 0,
+              "display": "block",
+              "height": "initial",
+              "margin": 0,
+              "maxWidth": "100%",
+              "opacity": 1,
+              "padding": 0,
+              "width": "initial",
+            }
+          }
+        />
+      </span>
+      <img
+        data-nimg="intrinsic"
+        decoding="async"
+        onClick={[Function]}
+        onError={[Function]}
+        onLoad={[Function]}
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "border": "none",
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": 0,
+            "left": 0,
+            "margin": "auto",
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minHeight": "100%",
+            "minWidth": "100%",
+            "objectFit": undefined,
+            "objectPosition": undefined,
+            "padding": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "width": 0,
+          }
+        }
+      />
+      <noscript>
+        <img
+          data-nimg="intrinsic"
+          decoding="async"
+          loading="lazy"
+          onClick={[Function]}
+          src="/assets/layout/Exports/Icons/icon-heart-full.svg"
+          srcSet="/assets/layout/Exports/Icons/icon-heart-full.svg 1x, /assets/layout/Exports/Icons/icon-heart-full.svg 2x"
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": undefined,
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+      </noscript>
+    </span>
+  </div>
+  <div
+    id="tt2967006_overlay"
+    style={
+      Object {
+        "backgroundColor": "#1B2329",
+        "borderRadius": "4px",
+        "height": "100%",
+        "left": 0,
+        "opacity": 0,
+        "overflow": "hidden",
+        "top": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "padding": "12px",
+          "position": "absolute",
+          "right": 0,
+          "width": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "visibility": "hidden",
+          }
+        }
+      >
+        <h3
+          style={
+            Object {
+              "color": "white",
+              "marginBottom": 0,
+            }
+          }
+        >
+          The Trip to Italy
+        </h3>
+        <p
+          style={
+            Object {
+              "color": "white",
+              "marginBottom": 0,
+              "marginTop": "12px",
+            }
+          }
+        >
+          2014
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`changes the opacity of overlay when hovered 4`] = `
+<div
+  id="tt0173772"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "backgroundImage": "url(https://m.media-amazon.com/images/M/MV5BMDRkM2RiZWYtODYxNy00ZmJlLTkyZDQtNDdiNTIwMzkxYzQ1XkEyXkFqcGdeQXVyMzIwNDY4NDI@._V1_SX300.jpg)",
+      "backgroundPosition": "center",
+      "backgroundRepeat": "no-repeat",
+      "backgroundSize": "180px 240px",
+      "borderRadius": "4px",
+      "maxHeight": "240px",
+      "position": "relative",
+    }
+  }
+>
+  <div
+    id="tt0173772_heart"
+    style={
+      Object {
+        "position": "absolute",
+        "right": "12px",
+        "top": "12px",
+        "visibility": "hidden",
+        "zIndex": 1,
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "background": "none",
+          "border": 0,
+          "boxSizing": "border-box",
+          "display": "inline-block",
+          "height": "initial",
+          "margin": 0,
+          "maxWidth": "100%",
+          "opacity": 1,
+          "overflow": "hidden",
+          "padding": 0,
+          "position": "relative",
+          "width": "initial",
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "background": "none",
+            "border": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": "initial",
+            "margin": 0,
+            "maxWidth": "100%",
+            "opacity": 1,
+            "padding": 0,
+            "width": "initial",
+          }
+        }
+      >
+        <img
+          alt=""
+          aria-hidden={true}
+          src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2716%27%20height=%2716%27/%3e"
+          style={
+            Object {
+              "background": "none",
+              "border": 0,
+              "display": "block",
+              "height": "initial",
+              "margin": 0,
+              "maxWidth": "100%",
+              "opacity": 1,
+              "padding": 0,
+              "width": "initial",
+            }
+          }
+        />
+      </span>
+      <img
+        data-nimg="intrinsic"
+        decoding="async"
+        onClick={[Function]}
+        onError={[Function]}
+        onLoad={[Function]}
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "border": "none",
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": 0,
+            "left": 0,
+            "margin": "auto",
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minHeight": "100%",
+            "minWidth": "100%",
+            "objectFit": undefined,
+            "objectPosition": undefined,
+            "padding": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "width": 0,
+          }
+        }
+      />
+      <noscript>
+        <img
+          data-nimg="intrinsic"
+          decoding="async"
+          loading="lazy"
+          onClick={[Function]}
+          src="/assets/layout/Exports/Icons/icon-heart-white.svg"
+          srcSet="/assets/layout/Exports/Icons/icon-heart-white.svg 1x, /assets/layout/Exports/Icons/icon-heart-white.svg 2x"
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": undefined,
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+      </noscript>
+    </span>
+  </div>
+  <div
+    id="tt0173772_overlay"
+    style={
+      Object {
+        "backgroundColor": "#1B2329",
+        "borderRadius": "4px",
+        "height": "100%",
+        "left": 0,
+        "opacity": 0,
+        "overflow": "hidden",
+        "top": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "padding": "12px",
+          "position": "absolute",
+          "right": 0,
+          "width": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "visibility": "hidden",
+          }
+        }
+      >
+        <h3
+          style={
+            Object {
+              "color": "white",
+              "marginBottom": 0,
+            }
+          }
+        >
+          My Voyage to Italy
+        </h3>
+        <p
+          style={
+            Object {
+              "color": "white",
+              "marginBottom": 0,
+              "marginTop": "12px",
+            }
+          }
+        >
+          1999
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`changes the opacity of overlay when hovered 5`] = `
+<div
+  id="tt0173772"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "backgroundImage": "url(https://m.media-amazon.com/images/M/MV5BMDRkM2RiZWYtODYxNy00ZmJlLTkyZDQtNDdiNTIwMzkxYzQ1XkEyXkFqcGdeQXVyMzIwNDY4NDI@._V1_SX300.jpg)",
+      "backgroundPosition": "center",
+      "backgroundRepeat": "no-repeat",
+      "backgroundSize": "180px 240px",
+      "borderRadius": "4px",
+      "maxHeight": "240px",
+      "position": "relative",
+    }
+  }
+>
+  <div
+    id="tt0173772_heart"
+    style={
+      Object {
+        "position": "absolute",
+        "right": "12px",
+        "top": "12px",
+        "visibility": "visible",
+        "zIndex": 1,
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "background": "none",
+          "border": 0,
+          "boxSizing": "border-box",
+          "display": "inline-block",
+          "height": "initial",
+          "margin": 0,
+          "maxWidth": "100%",
+          "opacity": 1,
+          "overflow": "hidden",
+          "padding": 0,
+          "position": "relative",
+          "width": "initial",
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "background": "none",
+            "border": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": "initial",
+            "margin": 0,
+            "maxWidth": "100%",
+            "opacity": 1,
+            "padding": 0,
+            "width": "initial",
+          }
+        }
+      >
+        <img
+          alt=""
+          aria-hidden={true}
+          src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2716%27%20height=%2716%27/%3e"
+          style={
+            Object {
+              "background": "none",
+              "border": 0,
+              "display": "block",
+              "height": "initial",
+              "margin": 0,
+              "maxWidth": "100%",
+              "opacity": 1,
+              "padding": 0,
+              "width": "initial",
+            }
+          }
+        />
+      </span>
+      <img
+        data-nimg="intrinsic"
+        decoding="async"
+        onClick={[Function]}
+        onError={[Function]}
+        onLoad={[Function]}
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "border": "none",
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": 0,
+            "left": 0,
+            "margin": "auto",
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minHeight": "100%",
+            "minWidth": "100%",
+            "objectFit": undefined,
+            "objectPosition": undefined,
+            "padding": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "width": 0,
+          }
+        }
+      />
+      <noscript>
+        <img
+          data-nimg="intrinsic"
+          decoding="async"
+          loading="lazy"
+          onClick={[Function]}
+          src="/assets/layout/Exports/Icons/icon-heart-white.svg"
+          srcSet="/assets/layout/Exports/Icons/icon-heart-white.svg 1x, /assets/layout/Exports/Icons/icon-heart-white.svg 2x"
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": undefined,
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+      </noscript>
+    </span>
+  </div>
+  <div
+    id="tt0173772_overlay"
+    style={
+      Object {
+        "backgroundColor": "#1B2329",
+        "borderRadius": "4px",
+        "height": "100%",
+        "left": 0,
+        "opacity": 0.9,
+        "overflow": "hidden",
+        "top": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "padding": "12px",
+          "position": "absolute",
+          "right": 0,
+          "width": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "visibility": "visible",
+          }
+        }
+      >
+        <h3
+          style={
+            Object {
+              "color": "white",
+              "marginBottom": 0,
+            }
+          }
+        >
+          My Voyage to Italy
+        </h3>
+        <p
+          style={
+            Object {
+              "color": "white",
+              "marginBottom": 0,
+              "marginTop": "12px",
+            }
+          }
+        >
+          1999
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`changes the opacity of overlay when hovered 6`] = `
+<div
+  id="tt0173772"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "backgroundImage": "url(https://m.media-amazon.com/images/M/MV5BMDRkM2RiZWYtODYxNy00ZmJlLTkyZDQtNDdiNTIwMzkxYzQ1XkEyXkFqcGdeQXVyMzIwNDY4NDI@._V1_SX300.jpg)",
+      "backgroundPosition": "center",
+      "backgroundRepeat": "no-repeat",
+      "backgroundSize": "180px 240px",
+      "borderRadius": "4px",
+      "maxHeight": "240px",
+      "position": "relative",
+    }
+  }
+>
+  <div
+    id="tt0173772_heart"
+    style={
+      Object {
+        "position": "absolute",
+        "right": "12px",
+        "top": "12px",
+        "visibility": "hidden",
+        "zIndex": 1,
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "background": "none",
+          "border": 0,
+          "boxSizing": "border-box",
+          "display": "inline-block",
+          "height": "initial",
+          "margin": 0,
+          "maxWidth": "100%",
+          "opacity": 1,
+          "overflow": "hidden",
+          "padding": 0,
+          "position": "relative",
+          "width": "initial",
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "background": "none",
+            "border": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": "initial",
+            "margin": 0,
+            "maxWidth": "100%",
+            "opacity": 1,
+            "padding": 0,
+            "width": "initial",
+          }
+        }
+      >
+        <img
+          alt=""
+          aria-hidden={true}
+          src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2716%27%20height=%2716%27/%3e"
+          style={
+            Object {
+              "background": "none",
+              "border": 0,
+              "display": "block",
+              "height": "initial",
+              "margin": 0,
+              "maxWidth": "100%",
+              "opacity": 1,
+              "padding": 0,
+              "width": "initial",
+            }
+          }
+        />
+      </span>
+      <img
+        data-nimg="intrinsic"
+        decoding="async"
+        onClick={[Function]}
+        onError={[Function]}
+        onLoad={[Function]}
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "border": "none",
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": 0,
+            "left": 0,
+            "margin": "auto",
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minHeight": "100%",
+            "minWidth": "100%",
+            "objectFit": undefined,
+            "objectPosition": undefined,
+            "padding": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "width": 0,
+          }
+        }
+      />
+      <noscript>
+        <img
+          data-nimg="intrinsic"
+          decoding="async"
+          loading="lazy"
+          onClick={[Function]}
+          src="/assets/layout/Exports/Icons/icon-heart-white.svg"
+          srcSet="/assets/layout/Exports/Icons/icon-heart-white.svg 1x, /assets/layout/Exports/Icons/icon-heart-white.svg 2x"
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": undefined,
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+      </noscript>
+    </span>
+  </div>
+  <div
+    id="tt0173772_overlay"
+    style={
+      Object {
+        "backgroundColor": "#1B2329",
+        "borderRadius": "4px",
+        "height": "100%",
+        "left": 0,
+        "opacity": 0,
+        "overflow": "hidden",
+        "top": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "padding": "12px",
+          "position": "absolute",
+          "right": 0,
+          "width": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "visibility": "hidden",
+          }
+        }
+      >
+        <h3
+          style={
+            Object {
+              "color": "white",
+              "marginBottom": 0,
+            }
+          }
+        >
+          My Voyage to Italy
+        </h3>
+        <p
+          style={
+            Object {
+              "color": "white",
+              "marginBottom": 0,
+              "marginTop": "12px",
+            }
+          }
+        >
+          1999
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
