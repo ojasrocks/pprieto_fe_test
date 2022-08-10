@@ -73,4 +73,4 @@ The main idea was to match the main aspect of the default website, and add some 
 
 9- Preferred to code in JavaScript then TypeScript since was not complicated structure and not risk to mismatch types
 
-10- Done Jest unit test on "LittleCard" component only, preferred more e2e codeceptsJS tests to help me in graphical design at higher and lower sizes.
+10- Done Jest unit test on "LittleCard" component, preferred have more e2e codeceptsJS tests to help me in graphical design at higher and lower screen sizes.
