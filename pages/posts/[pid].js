@@ -3,12 +3,12 @@ import MovieDetails from '../../components/MovieDetails'
 import styles from '../../styles/Home.module.css'
 import axios from 'axios'
 
-const Post = ({ data , favourite }) => {
+const Post = ({ data }) => {
 
   return (
     <main className={styles.main}>
     <Header/>
-    <MovieDetails data={data} fav={favourite} />
+    <MovieDetails data={data} />
     </main>
     )
 }
@@ -17,8 +17,7 @@ export default Post
 
 export async function getServerSideProps(context) {
     const { query } = context;
-    const { pid ,fav } = query;
-    const favourite = fav === 'true';
+    const { pid } = query;
     const res = await axios.get(`http://www.omdbapi.com/?i=${pid}&apikey=${process.env.customKey}`);
     const data = res.data;
     try {
@@ -33,8 +32,7 @@ export async function getServerSideProps(context) {
     } catch(e){console.throw(e);}
     return {
       props: {
-        data,
-        favourite
+        data
       },
     }
   }
