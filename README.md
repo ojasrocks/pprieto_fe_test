@@ -74,3 +74,15 @@ The main idea was to match the main aspect of the default website, and add some 
 9- Preferred to code in JavaScript then TypeScript since was not complicated structure and not risk to mismatch types
 
 10- Done Jest unit test on "LittleCard" component, preferred have more e2e codeceptsJS tests to help me in graphical design at higher and lower screen sizes.
+
+# UPDATE
+
+Going to review the application I found a skill required -> React-Redux, so I added it to keep track of the favourites value and use it when updating state.
+
+## Question :
+
+I added a "click outside results box" method that clears the results when user clicks outside the box with results.
+
+This could be annoying depending on the UX that would be delivered to the user, is it?
+
+Please let me know if it is desired or not, I can avoid it. Thx
