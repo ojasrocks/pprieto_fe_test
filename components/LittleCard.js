@@ -1,13 +1,17 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
+import { useSelector , useDispatch } from 'react-redux';
+import { increment , decrement , initialize} from '../components/store/storeFavs'
 import _ from 'lodash'
 
 
-export default function LittleCard({value, fav}) {
+export default function LittleCard({value }) {
 
     const notAvailable = 'https://upload.wikimedia.org/wikipedia/commons/6/64/Poster_not_available.jpg'
-    const [heart,setHeart] = useState(fav);
+    const favs = useSelector((state)=> state.favs.value)
+    const dispatch = useDispatch()
+    const [heart,setHeart] = useState(favs.some(el => el === value.imdbID));
     const [overlay,setOverlay] = useState(false);
     const direct = '/assets/layout/Exports/Icons/icon-heart-'
     const mediaMatch = window.matchMedia('(max-width: 1000px)');
@@ -20,17 +24,25 @@ export default function LittleCard({value, fav}) {
     });
 
     useEffect( ()=>{
-        let favourites = JSON.parse(localStorage.getItem('favourites'))
-        if (_.isEmpty(favourites)) favourites = [];
+        let favourites = [];
+        if (_.isEmpty(favs))
+        {
+        favourites = JSON.parse(localStorage.getItem('favourites'))
+        dispatch(initialize(favourites))
+        } else favs.forEach(element => {
+            favourites.push(element)
+        });
         if (heart && !favourites.some(el => el === value['imdbID'])){
+            dispatch(increment(value['imdbID']));
             favourites.push(value['imdbID'])
             localStorage.setItem('favourites', JSON.stringify(favourites))
         }
         if (!heart && favourites.some(el => el === value['imdbID'])){
+            dispatch(decrement(value['imdbID']))
             favourites = favourites.filter(elem => elem !== value['imdbID'])
             localStorage.setItem('favourites', JSON.stringify(favourites))
         }
-    },[heart])
+    },[heart,value])
 
     return (
         <div 
@@ -85,7 +97,7 @@ export default function LittleCard({value, fav}) {
                 flexFlow: 'column',
                 justifyContent:'flex-end'
             }}>
-            <Link href={`/posts/${value.imdbID}?fav=${heart}`}>
+            <Link href={`/posts/${value.imdbID}`}>
             <div 
             id={`${value.imdbID}_toclick`}
             style={{

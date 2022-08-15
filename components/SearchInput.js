@@ -8,6 +8,7 @@ import Loading from './Loading';
 import axios from 'axios';
 import _ from 'lodash';
 
+
 function useOutsideAlerter({ ref , fun }) {
     useEffect(() => {
       function handleClickOutside(event) {
@@ -35,7 +36,6 @@ export default function SearchInput() {
         setValues({});
         setInputValue('')
     }
-
 
     useOutsideAlerter({ref : wrapperRef, fun: handleOutsideClick});
     
@@ -91,13 +91,7 @@ export default function SearchInput() {
                         values.result ? 
                         <div className={styles.dataResult}>
                         {
-                            values.data.map(el => <LittleCard key={el['imdbID']} value={el} fav={()=>{
-                                const favourites = JSON.parse(localStorage.getItem('favourites'))
-                                if (!_.isEmpty(favourites)) {
-                                    if (favourites.some(elem => elem === el['imdbID'])) return true
-                                } 
-                                return false
-                            }}/>)
+                            values.data.map(el => <LittleCard key={el['imdbID']} value={el} />)
                         }
                         </div> 
                         : values.data.map(el => 
